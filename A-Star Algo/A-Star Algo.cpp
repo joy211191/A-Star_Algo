@@ -86,6 +86,6 @@ int main()
 	cout << "\nEnd position x,y: ";
 	cin >> endX >> endY;
 
-	cout<< FindPath(startX, startY, endX, endY, pMap, sizeX, sizeY, pOutBuffer, sizeX * sizeY);
+	cout<< FindPath(startX, startY, endX, endY, pMap, sizeX, sizeY, pOutBuffer, sizeX * sizeY)-1;
 
 }
